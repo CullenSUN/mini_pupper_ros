@@ -39,7 +39,7 @@ def generate_launch_description():
         default_value='False',
         description='Use simulation (Gazebo) clock if true'
     )
-    
+
     base_to_footprint_ekf = Node(
         package='robot_localization',
         executable='ekf_node',

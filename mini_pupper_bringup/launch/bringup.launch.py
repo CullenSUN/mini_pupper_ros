@@ -73,7 +73,7 @@ def generate_launch_description():
         description='Set to true if connected to a physical robot'
     )
 
-    description_launch_path =  PathJoinSubstitution(
+    description_launch_path = PathJoinSubstitution(
         [description_package, 'launch', 'mini_pupper_description.launch.py']
     )
     description_launch = IncludeLaunchDescription(
